@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minesweeper</title>
+  <link rel="stylesheet" href="minesweeper.css">
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Italianno" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <a href="https://github.com/gmanchon?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+    <h1>minesweeper</h1>
+    <h2>a game where it is completely impossile to cheat!</h2>
+    <h3>(unless you open the inspector)</h3>
+    <table id="dashboard">
+      <tr>
+        <td><a href="#" id="game-chicken" class="button-game">🐔</a></td></td>
+        <td><a href="#" id="game-beginner" class="button-game">😊</a></td></td>
+        <td><a href="#" id="game-intermediate" class="button-game">🧐</a></td></td>
+        <td><a href="#" id="game-expert" class="button-game">🤯</a></td></td>
+        <td><a href="#" id="game-hell" class="button-game">👹</a></td></td>
+      </tr>
+      <tr>
+        <td><label class="text-left">rows</label></td>
+        <td><input type="text" id="grid-width" placeholder="10"></td>
+        <td><input type="text" id="grid-height" placeholder="10"></td>
+        <td><input type="text" id="grid-mines" placeholder="10"></td>
+        <td><label>mines</label></td>
+      </tr>
+      <tr>
+        <td><label class="text-left">mines</label></td>
+        <td><input type="text" id="mine-count" disabled></td>
+        <td><input type="text" id="hidden" disabled></td>
+        <td><input type="text" id="timer" disabled></td>
+        <td><label>time</label></td>
+      </tr>
+    </div>
+    <a href="#" id="game-button" class="button-game">🤪</a>
+    <table id="minesweeper">
+      <!-- <tr>
+        <td class="unopened"></td>
+        <td class="unopened"></td>
+      </tr>
+      <tr>
+        <td class="unopened"></td>
+        <td class="unopened"></td>
+      </tr> -->
+    </table>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
